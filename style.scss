@@ -67,12 +67,16 @@ body {
         border-width: 0 9px 9px;
         border-color: #ededed transparent;
         border-style: solid;
-        right: 6px 
+        left: 6px 
     }
 }
-.dropdown-menu.dropdown-arrow-left:before {
-    left: 6px;
-    right: unset;
+.dropdown-menu.dropdown-right{
+  right:0;
+  left: unset;
+  &:before {
+      right: 6px;
+      left: unset;
+  }
 }
 
 // Dropdown-Header
